@@ -58,7 +58,7 @@ public class SpringBootDbJsonApplication {
                 //JsonGenerator object create empty json file using objectmapper's createGenerator using two params file extension, character types capacity)
 				
 				gen.writeObject(usersW);
-                // Read from List(userW) and Write to H2 Database
+                // Write List to Json File
 				
 				gen.close();
                 // Generator Object close is called so can use for single file also as not needed to re-use on multiple files.
